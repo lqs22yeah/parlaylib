@@ -15,7 +15,7 @@
 std::vector<long> generate_exponential_weights(int n,double lambda){
   std::vector<long> weights(n);
   for (int i=0;i<n;i++){
-    weights[i]=static_cast<long>(exp(-lambda*i));
+    weights[i]=static_cast<long>(1000*exp(-lambda*i));
   }
   return weights;
 }
@@ -46,7 +46,7 @@ int main(int argc, char* argv[]) {
       t.next("mergesort");
     }
 
-    auto first_ten = result.head(10);
+    auto first_ten = result.head(200);
 
     std::cout << "first 10 elements: " << parlay::to_chars(first_ten) << std::endl;
   }
