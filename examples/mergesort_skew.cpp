@@ -48,7 +48,7 @@ int main(int argc, char* argv[]) {
 
     auto first_ten = result.head(200);
 
-    std::cout << "first 10 elements: " << parlay::to_chars(first_ten) << std::endl;
+    std::cout << "first 200 elements: " << parlay::to_chars(first_ten) << std::endl;
   }
 }
 
