@@ -15,7 +15,7 @@
 std::vector<long> generate_exponential_weights(int n,double lambda){
   std::vector<long> weights(n);
   for (int i=0;i<n;i++){
-    weights[i]=static_cast<long>(1000*exp(-lambda*i));
+    weights[i]=static_cast<long>(10000000*exp(-lambda*i));
   }
   return weights;
 }
