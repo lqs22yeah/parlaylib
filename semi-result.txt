@@ -1,0 +1,1765 @@
+n: 1000000000
+uniform distribution with num_keys: 1000000000
+Running Semi-Sort on Uniform Distribution, keys=1000000000
+test_name: Ours=
+n: 0
+uniform distribution with num_keys: 1000000000
+Running Semi-Sort on Uniform Distribution, keys=1000000000
+test_name: Ours=
+Warmup round: 0.000007
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000005
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<
+Warmup round: 0.000016
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+test_name: Ours=-i
+Warmup round: 0.000005
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000004
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<-i
+Warmup round: 0.000008
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+Running GroupByKeyOrdered on Uniform Distribution, keys=1000000000
+GroupByKeyOrdered (Uniform Distribution, keys=1000000000): 0.000074 seconds
+uniform distribution with num_keys: 10000000
+Running Semi-Sort on Uniform Distribution, keys=10000000
+test_name: Ours=
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+test_name: Ours=-i
+Warmup round: 0.000003
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<-i
+Warmup round: 0.000005
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+Running GroupByKeyOrdered on Uniform Distribution, keys=10000000
+GroupByKeyOrdered (Uniform Distribution, keys=10000000): 0.000023 seconds
+uniform distribution with num_keys: 100000
+Running Semi-Sort on Uniform Distribution, keys=100000
+test_name: Ours=
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+test_name: Ours=-i
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<-i
+Warmup round: 0.000005
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+Running GroupByKeyOrdered on Uniform Distribution, keys=100000
+GroupByKeyOrdered (Uniform Distribution, keys=100000): 0.000023 seconds
+uniform distribution with num_keys: 1000
+Running Semi-Sort on Uniform Distribution, keys=1000
+test_name: Ours=
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+test_name: Ours=-i
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<-i
+Warmup round: 0.000005
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+Running GroupByKeyOrdered on Uniform Distribution, keys=1000
+GroupByKeyOrdered (Uniform Distribution, keys=1000): 0.000023 seconds
+uniform distribution with num_keys: 10
+Running Semi-Sort on Uniform Distribution, keys=10
+test_name: Ours=
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<
+Warmup round: 0.000005
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+test_name: Ours=-i
+Warmup round: 0.000003
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<-i
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+Running GroupByKeyOrdered on Uniform Distribution, keys=10
+GroupByKeyOrdered (Uniform Distribution, keys=10): 0.000022 seconds
+exponential distribution with lambda: 0.0000100000
+Running Semi-Sort on Exponential Distribution, lambda=0.000010
+test_name: Ours=
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+test_name: Ours=-i
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<-i
+Warmup round: 0.000005
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+Running GroupByKeyOrdered on Exponential Distribution, lambda=0.000010
+GroupByKeyOrdered (Exponential Distribution, lambda=0.000010): 0.000042 seconds
+exponential distribution with lambda: 0.0000200000
+Running Semi-Sort on Exponential Distribution, lambda=0.000020
+test_name: Ours=
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+test_name: Ours=-i
+Warmup round: 0.000003
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<-i
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+Running GroupByKeyOrdered on Exponential Distribution, lambda=0.000020
+GroupByKeyOrdered (Exponential Distribution, lambda=0.000020): 0.000024 seconds
+exponential distribution with lambda: 0.0000500000
+Running Semi-Sort on Exponential Distribution, lambda=0.000050
+test_name: Ours=
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000031
+Round 5: 0.000003
+Average: 0.000009
+Pass
+
+test_name: Ours<
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+test_name: Ours=-i
+Warmup round: 0.000003
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000004
+Average: 0.000003
+Pass
+
+test_name: Ours<-i
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+Running GroupByKeyOrdered on Exponential Distribution, lambda=0.000050
+GroupByKeyOrdered (Exponential Distribution, lambda=0.000050): 0.000023 seconds
+exponential distribution with lambda: 0.0000700000
+Running Semi-Sort on Exponential Distribution, lambda=0.000070
+test_name: Ours=
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+test_name: Ours=-i
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<-i
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+Running GroupByKeyOrdered on Exponential Distribution, lambda=0.000070
+GroupByKeyOrdered (Exponential Distribution, lambda=0.000070): 0.000023 seconds
+exponential distribution with lambda: 0.0001000000
+Running Semi-Sort on Exponential Distribution, lambda=0.000100
+test_name: Ours=
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+test_name: Ours=-i
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<-i
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+Running GroupByKeyOrdered on Exponential Distribution, lambda=0.000100
+GroupByKeyOrdered (Exponential Distribution, lambda=0.000100): 0.000024 seconds
+zipfian distribution with s: 0.600000
+Running Semi-Sort on Zipfian Distribution, s=0.600000
+test_name: Ours=
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+test_name: Ours=-i
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<-i
+Warmup round: 0.000005
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+Running GroupByKeyOrdered on Zipfian Distribution, s=0.600000
+GroupByKeyOrdered (Zipfian Distribution, s=0.600000): 0.000074 seconds
+zipfian distribution with s: 0.800000
+Running Semi-Sort on Zipfian Distribution, s=0.800000
+test_name: Ours=
+Warmup round: 0.000005
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<
+Warmup round: 0.000009
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+test_name: Ours=-i
+Warmup round: 0.000005
+Round 1: 0.000004
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<-i
+Warmup round: 0.000008
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+Running GroupByKeyOrdered on Zipfian Distribution, s=0.800000
+GroupByKeyOrdered (Zipfian Distribution, s=0.800000): 0.000024 seconds
+zipfian distribution with s: 1.000000
+Running Semi-Sort on Zipfian Distribution, s=1.000000
+test_name: Ours=
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+test_name: Ours=-i
+Warmup round: 0.000003
+Round 1: 0.000003
+Round 2: 0.000004
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<-i
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+Running GroupByKeyOrdered on Zipfian Distribution, s=1.000000
+GroupByKeyOrdered (Zipfian Distribution, s=1.000000): 0.000023 seconds
+zipfian distribution with s: 1.200000
+Running Semi-Sort on Zipfian Distribution, s=1.200000
+test_name: Ours=
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+test_name: Ours=-i
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<-i
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+Running GroupByKeyOrdered on Zipfian Distribution, s=1.200000
+GroupByKeyOrdered (Zipfian Distribution, s=1.200000): 0.000024 seconds
+zipfian distribution with s: 1.500000
+Running Semi-Sort on Zipfian Distribution, s=1.500000
+test_name: Ours=
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+test_name: Ours=-i
+Warmup round: 0.000003
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<-i
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+Running GroupByKeyOrdered on Zipfian Distribution, s=1.500000
+GroupByKeyOrdered (Zipfian Distribution, s=1.500000): 0.000024 seconds
+bits exp distribution with rate: 10
+Running Semi-Sort on Bits Exp Distribution, rate=10
+test_name: Ours=
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+test_name: Ours=-i
+Warmup round: 0.000003
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<-i
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+Running GroupByKeyOrdered on Bits Exp Distribution, rate=10
+GroupByKeyOrdered (Bits Exp Distribution, rate=10): 0.000035 seconds
+bits exp distribution with rate: 30
+Running Semi-Sort on Bits Exp Distribution, rate=30
+test_name: Ours=
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+test_name: Ours=-i
+Warmup round: 0.000003
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<-i
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+Running GroupByKeyOrdered on Bits Exp Distribution, rate=30
+GroupByKeyOrdered (Bits Exp Distribution, rate=30): 0.000023 seconds
+bits exp distribution with rate: 50
+Running Semi-Sort on Bits Exp Distribution, rate=50
+test_name: Ours=
+Warmup round: 0.000003
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+test_name: Ours=-i
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<-i
+Warmup round: 0.000005
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+Running GroupByKeyOrdered on Bits Exp Distribution, rate=50
+GroupByKeyOrdered (Bits Exp Distribution, rate=50): 0.000023 seconds
+bits exp distribution with rate: 100
+Running Semi-Sort on Bits Exp Distribution, rate=100
+test_name: Ours=
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+test_name: Ours=-i
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<-i
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+Running GroupByKeyOrdered on Bits Exp Distribution, rate=100
+GroupByKeyOrdered (Bits Exp Distribution, rate=100): 0.000023 seconds
+bits exp distribution with rate: 300
+Running Semi-Sort on Bits Exp Distribution, rate=300
+test_name: Ours=
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+test_name: Ours=-i
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000004
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<-i
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+Running GroupByKeyOrdered on Bits Exp Distribution, rate=300
+GroupByKeyOrdered (Bits Exp Distribution, rate=300): 0.000023 seconds
+uniform distribution with num_keys: 1000000000
+Running Semi-Sort on Uniform Distribution, keys=1000000000
+test_name: Ours=
+Warmup round: 0.000005
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<
+Warmup round: 0.000020
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+test_name: Ours=-i
+Warmup round: 0.000005
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<-i
+Warmup round: 0.000025
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+Running GroupByKeyOrdered on Uniform Distribution, keys=1000000000
+GroupByKeyOrdered (Uniform Distribution, keys=1000000000): 0.000039 seconds
+uniform distribution with num_keys: 10000000
+Running Semi-Sort on Uniform Distribution, keys=10000000
+test_name: Ours=
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+test_name: Ours=-i
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<-i
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+Running GroupByKeyOrdered on Uniform Distribution, keys=10000000
+GroupByKeyOrdered (Uniform Distribution, keys=10000000): 0.000025 seconds
+uniform distribution with num_keys: 100000
+Running Semi-Sort on Uniform Distribution, keys=100000
+test_name: Ours=
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+test_name: Ours=-i
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<-i
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+Running GroupByKeyOrdered on Uniform Distribution, keys=100000
+GroupByKeyOrdered (Uniform Distribution, keys=100000): 0.000025 seconds
+uniform distribution with num_keys: 1000
+Running Semi-Sort on Uniform Distribution, keys=1000
+test_name: Ours=
+Warmup round: 0.000005
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+test_name: Ours=-i
+Warmup round: 0.000004
+Round 1: 0.000004
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<-i
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+Running GroupByKeyOrdered on Uniform Distribution, keys=1000
+GroupByKeyOrdered (Uniform Distribution, keys=1000): 0.000025 seconds
+uniform distribution with num_keys: 10
+Running Semi-Sort on Uniform Distribution, keys=10
+test_name: Ours=
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000004
+Average: 0.000003
+Pass
+
+test_name: Ours<
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+test_name: Ours=-i
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<-i
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+Running GroupByKeyOrdered on Uniform Distribution, keys=10
+GroupByKeyOrdered (Uniform Distribution, keys=10): 0.000025 seconds
+exponential distribution with lambda: 0.0000100000
+Running Semi-Sort on Exponential Distribution, lambda=0.000010
+test_name: Ours=
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000006
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+test_name: Ours=-i
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<-i
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+Running GroupByKeyOrdered on Exponential Distribution, lambda=0.000010
+GroupByKeyOrdered (Exponential Distribution, lambda=0.000010): 0.000035 seconds
+exponential distribution with lambda: 0.0000200000
+Running Semi-Sort on Exponential Distribution, lambda=0.000020
+test_name: Ours=
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<
+Warmup round: 0.000006
+Round 1: 0.000006
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+test_name: Ours=-i
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<-i
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+Running GroupByKeyOrdered on Exponential Distribution, lambda=0.000020
+GroupByKeyOrdered (Exponential Distribution, lambda=0.000020): 0.000025 seconds
+exponential distribution with lambda: 0.0000500000
+Running Semi-Sort on Exponential Distribution, lambda=0.000050
+test_name: Ours=
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+test_name: Ours=-i
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<-i
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+Running GroupByKeyOrdered on Exponential Distribution, lambda=0.000050
+GroupByKeyOrdered (Exponential Distribution, lambda=0.000050): 0.000025 seconds
+exponential distribution with lambda: 0.0000700000
+Running Semi-Sort on Exponential Distribution, lambda=0.000070
+test_name: Ours=
+Warmup round: 0.000004
+Round 1: 0.000004
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+test_name: Ours=-i
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<-i
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+Running GroupByKeyOrdered on Exponential Distribution, lambda=0.000070
+GroupByKeyOrdered (Exponential Distribution, lambda=0.000070): 0.000025 seconds
+exponential distribution with lambda: 0.0001000000
+Running Semi-Sort on Exponential Distribution, lambda=0.000100
+test_name: Ours=
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+test_name: Ours=-i
+Warmup round: 0.000003
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000004
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<-i
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+Running GroupByKeyOrdered on Exponential Distribution, lambda=0.000100
+GroupByKeyOrdered (Exponential Distribution, lambda=0.000100): 0.000025 seconds
+zipfian distribution with s: 0.600000
+Running Semi-Sort on Zipfian Distribution, s=0.600000
+test_name: Ours=
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+test_name: Ours=-i
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<-i
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+Running GroupByKeyOrdered on Zipfian Distribution, s=0.600000
+GroupByKeyOrdered (Zipfian Distribution, s=0.600000): 0.000036 seconds
+zipfian distribution with s: 0.800000
+Running Semi-Sort on Zipfian Distribution, s=0.800000
+test_name: Ours=
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+test_name: Ours=-i
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000004
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<-i
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+Running GroupByKeyOrdered on Zipfian Distribution, s=0.800000
+GroupByKeyOrdered (Zipfian Distribution, s=0.800000): 0.000027 seconds
+zipfian distribution with s: 1.000000
+Running Semi-Sort on Zipfian Distribution, s=1.000000
+test_name: Ours=
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+test_name: Ours=-i
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<-i
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+Running GroupByKeyOrdered on Zipfian Distribution, s=1.000000
+GroupByKeyOrdered (Zipfian Distribution, s=1.000000): 0.000026 seconds
+zipfian distribution with s: 1.200000
+Running Semi-Sort on Zipfian Distribution, s=1.200000
+test_name: Ours=
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000004
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+test_name: Ours=-i
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<-i
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+Running GroupByKeyOrdered on Zipfian Distribution, s=1.200000
+GroupByKeyOrdered (Zipfian Distribution, s=1.200000): 0.000027 seconds
+zipfian distribution with s: 1.500000
+Running Semi-Sort on Zipfian Distribution, s=1.500000
+test_name: Ours=
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+test_name: Ours=-i
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<-i
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+Running GroupByKeyOrdered on Zipfian Distribution, s=1.500000
+GroupByKeyOrdered (Zipfian Distribution, s=1.500000): 0.000025 seconds
+bits exp distribution with rate: 10
+Running Semi-Sort on Bits Exp Distribution, rate=10
+test_name: Ours=
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+test_name: Ours=-i
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<-i
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+Running GroupByKeyOrdered on Bits Exp Distribution, rate=10
+GroupByKeyOrdered (Bits Exp Distribution, rate=10): 0.000048 seconds
+bits exp distribution with rate: 30
+Running Semi-Sort on Bits Exp Distribution, rate=30
+test_name: Ours=
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+test_name: Ours=-i
+Warmup round: 0.000004
+Round 1: 0.000004
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000004
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<-i
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+Running GroupByKeyOrdered on Bits Exp Distribution, rate=30
+GroupByKeyOrdered (Bits Exp Distribution, rate=30): 0.000025 seconds
+bits exp distribution with rate: 50
+Running Semi-Sort on Bits Exp Distribution, rate=50
+test_name: Ours=
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+test_name: Ours=-i
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<-i
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+Running GroupByKeyOrdered on Bits Exp Distribution, rate=50
+GroupByKeyOrdered (Bits Exp Distribution, rate=50): 0.000025 seconds
+bits exp distribution with rate: 100
+Running Semi-Sort on Bits Exp Distribution, rate=100
+test_name: Ours=
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+test_name: Ours=-i
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<-i
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+Running GroupByKeyOrdered on Bits Exp Distribution, rate=100
+GroupByKeyOrdered (Bits Exp Distribution, rate=100): 0.000025 seconds
+bits exp distribution with rate: 300
+Running Semi-Sort on Bits Exp Distribution, rate=300
+test_name: Ours=
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+test_name: Ours=-i
+Warmup round: 0.000004
+Round 1: 0.000003
+Round 2: 0.000003
+Round 3: 0.000003
+Round 4: 0.000003
+Round 5: 0.000003
+Average: 0.000003
+Pass
+
+test_name: Ours<-i
+Warmup round: 0.000006
+Round 1: 0.000005
+Round 2: 0.000005
+Round 3: 0.000005
+Round 4: 0.000005
+Round 5: 0.000005
+Average: 0.000005
+Pass
+
+Running GroupByKeyOrdered on Bits Exp Distribution, rate=300
+GroupByKeyOrdered (Bits Exp Distribution, rate=300): 0.000025 seconds
