@@ -1,0 +1,172 @@
+[
+    {
+        "n": 1000,
+        "non_skew": {
+            "TestIntegerSortInplaceUniquePtr": {
+                "Standard sort time": 5,
+                "Parlay integer_sort time": 0
+            },
+            "TestIntegerSortCopyAndDestructiveMove": {
+                "Standard sort time": 0,
+                "Parlay integer_sort time": 1
+            }
+        },
+        "skew": {
+            "TestIntegerSortInplaceUniquePtr": {},
+            "TestIntegerSortCopyAndDestructiveMove": {}
+        }
+    },
+    {
+        "n": 1000,
+        "non_skew": {
+            "TestIntegerSortInplaceUniquePtr": {
+                "Standard sort time": 0,
+                "Parlay integer_sort time": 0
+            },
+            "TestIntegerSortCopyAndDestructiveMove": {
+                "Standard sort time": 0,
+                "Parlay integer_sort time": 0
+            }
+        },
+        "skew": {
+            "TestIntegerSortInplaceUniquePtr": {},
+            "TestIntegerSortCopyAndDestructiveMove": {}
+        }
+    },
+    {
+        "n": 10000,
+        "non_skew": {
+            "TestIntegerSortInplaceUniquePtr": {
+                "Standard sort time": 13,
+                "Parlay integer_sort time": 5
+            },
+            "TestIntegerSortCopyAndDestructiveMove": {
+                "Standard sort time": 3,
+                "Parlay integer_sort time": 4
+            }
+        },
+        "skew": {
+            "TestIntegerSortInplaceUniquePtr": {},
+            "TestIntegerSortCopyAndDestructiveMove": {}
+        }
+    },
+    {
+        "n": 10000,
+        "non_skew": {
+            "TestIntegerSortInplaceUniquePtr": {
+                "Standard sort time": 12,
+                "Parlay integer_sort time": 3
+            },
+            "TestIntegerSortCopyAndDestructiveMove": {
+                "Standard sort time": 3,
+                "Parlay integer_sort time": 2
+            }
+        },
+        "skew": {
+            "TestIntegerSortInplaceUniquePtr": {},
+            "TestIntegerSortCopyAndDestructiveMove": {}
+        }
+    },
+    {
+        "n": 100000,
+        "non_skew": {
+            "TestIntegerSortInplaceUniquePtr": {
+                "Standard sort time": 138,
+                "Parlay integer_sort time": 51
+            },
+            "TestIntegerSortCopyAndDestructiveMove": {
+                "Standard sort time": 51,
+                "Parlay integer_sort time": 52
+            }
+        },
+        "skew": {
+            "TestIntegerSortInplaceUniquePtr": {},
+            "TestIntegerSortCopyAndDestructiveMove": {}
+        }
+    },
+    {
+        "n": 100000,
+        "non_skew": {
+            "TestIntegerSortInplaceUniquePtr": {
+                "Standard sort time": 151,
+                "Parlay integer_sort time": 54
+            },
+            "TestIntegerSortCopyAndDestructiveMove": {
+                "Standard sort time": 58,
+                "Parlay integer_sort time": 46
+            }
+        },
+        "skew": {
+            "TestIntegerSortInplaceUniquePtr": {},
+            "TestIntegerSortCopyAndDestructiveMove": {}
+        }
+    },
+    {
+        "n": 1000000,
+        "non_skew": {
+            "TestIntegerSortInplaceUniquePtr": {
+                "Standard sort time": 2028,
+                "Parlay integer_sort time": 70
+            },
+            "TestIntegerSortCopyAndDestructiveMove": {
+                "Standard sort time": 723,
+                "Parlay integer_sort time": 85
+            }
+        },
+        "skew": {
+            "TestIntegerSortInplaceUniquePtr": {},
+            "TestIntegerSortCopyAndDestructiveMove": {}
+        }
+    },
+    {
+        "n": 1000000,
+        "non_skew": {
+            "TestIntegerSortInplaceUniquePtr": {
+                "Standard sort time": 1830,
+                "Parlay integer_sort time": 90
+            },
+            "TestIntegerSortCopyAndDestructiveMove": {
+                "Standard sort time": 878,
+                "Parlay integer_sort time": 119
+            }
+        },
+        "skew": {
+            "TestIntegerSortInplaceUniquePtr": {},
+            "TestIntegerSortCopyAndDestructiveMove": {}
+        }
+    },
+    {
+        "n": 10000000,
+        "non_skew": {
+            "TestIntegerSortInplaceUniquePtr": {
+                "Standard sort time": 22024,
+                "Parlay integer_sort time": 432
+            },
+            "TestIntegerSortCopyAndDestructiveMove": {
+                "Standard sort time": 10653,
+                "Parlay integer_sort time": 764
+            }
+        },
+        "skew": {
+            "TestIntegerSortInplaceUniquePtr": {},
+            "TestIntegerSortCopyAndDestructiveMove": {}
+        }
+    },
+    {
+        "n": 10000000,
+        "non_skew": {
+            "TestIntegerSortInplaceUniquePtr": {
+                "Standard sort time": 23434,
+                "Parlay integer_sort time": 520
+            },
+            "TestIntegerSortCopyAndDestructiveMove": {
+                "Standard sort time": 13461,
+                "Parlay integer_sort time": 900
+            }
+        },
+        "skew": {
+            "TestIntegerSortInplaceUniquePtr": {},
+            "TestIntegerSortCopyAndDestructiveMove": {}
+        }
+    }
+]

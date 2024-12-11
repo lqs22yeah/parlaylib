@@ -1,256 +1,149 @@
 Testing results for different n values
 Running for n = 1000
-[==========] Running 3 tests from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 3 tests from TestIntegerSort
-[ RUN      ] TestIntegerSort.TestIntegerSortEmptyInput
-[       OK ] TestIntegerSort.TestIntegerSortEmptyInput (2 ms)
-[ RUN      ] TestIntegerSort.TestIntegerSortInplaceUniquePtr
-Data generation time: 4 ms
-Standard sort time: 1 ms
+
+TestIntegerSort.TestIntegerSortInplaceUniquePtr
+Data generation time: 5 ms
+Standard sort time: 5 ms
 Parlay integer_sort time: 0 ms
-Total test time: 6 ms
-[       OK ] TestIntegerSort.TestIntegerSortInplaceUniquePtr (9 ms)
-[ RUN      ] TestIntegerSort.TestIntegerSortCopyAndDestructiveMove
+Total test time: 11 ms
+
+TestIntegerSort.TestIntegerSortCopyAndDestructiveMove
+Data generation time: 2 ms
+Standard sort time: 0 ms
+Parlay integer_sort time: 1 ms
+Verification time: 0 ms
+Total test time: 3 ms
+
+skew:Running for n = 1000
+
+TestIntegerSort.TestIntegerSortInplaceUniquePtr
+Weight generation time: 0 ms
+Data generation time: 3 ms
+Standard sort time: 0 ms
+Parlay integer_sort time: 0 ms
+Verification time: 0 ms
+Total test time: 5 ms
+TestIntegerSort.TestIntegerSortCopyAndDestructiveMove
+Weight generation time: 0 ms
 Data generation time: 0 ms
 Standard sort time: 0 ms
 Parlay integer_sort time: 0 ms
 Verification time: 0 ms
 Total test time: 0 ms
-[       OK ] TestIntegerSort.TestIntegerSortCopyAndDestructiveMove (0 ms)
-[----------] 3 tests from TestIntegerSort (12 ms total)
 
-[----------] Global test environment tear-down
-[==========] 3 tests from 1 test suite ran. (13 ms total)
-[  PASSED  ] 3 tests.
-skew:Running for n = 1000
-[==========] Running 3 tests from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 3 tests from TestIntegerSort
-[ RUN      ] TestIntegerSort.TestIntegerSortEmptyInput
-[       OK ] TestIntegerSort.TestIntegerSortEmptyInput (1 ms)
-[ RUN      ] TestIntegerSort.TestIntegerSortInplaceUniquePtr
-Weight generation time: 0 ms
-Data generation time: 6 ms
-Standard sort time: 2 ms
-Parlay integer_sort time: 1 ms
-Verification time: 0 ms
-Total test time: 11 ms
-[       OK ] TestIntegerSort.TestIntegerSortInplaceUniquePtr (12 ms)
-[ RUN      ] TestIntegerSort.TestIntegerSortCopyAndDestructiveMove
-Weight generation time: 0 ms
-Data generation time: 0 ms
-Standard sort time: 0 ms
-Parlay integer_sort time: 0 ms
-Verification time: 0 ms
-Total test time: 1 ms
-[       OK ] TestIntegerSort.TestIntegerSortCopyAndDestructiveMove (1 ms)
-[----------] 3 tests from TestIntegerSort (16 ms total)
-
-[----------] Global test environment tear-down
-[==========] 3 tests from 1 test suite ran. (16 ms total)
-[  PASSED  ] 3 tests.
 Running for n = 10000
-[==========] Running 3 tests from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 3 tests from TestIntegerSort
-[ RUN      ] TestIntegerSort.TestIntegerSortEmptyInput
-[       OK ] TestIntegerSort.TestIntegerSortEmptyInput (1 ms)
-[ RUN      ] TestIntegerSort.TestIntegerSortInplaceUniquePtr
-Data generation time: 2 ms
-Standard sort time: 16 ms
-Parlay integer_sort time: 6 ms
-Total test time: 26 ms
-[       OK ] TestIntegerSort.TestIntegerSortInplaceUniquePtr (29 ms)
-[ RUN      ] TestIntegerSort.TestIntegerSortCopyAndDestructiveMove
+TestIntegerSort.TestIntegerSortInplaceUniquePtr
+Data generation time: 4 ms
+Standard sort time: 13 ms
+Parlay integer_sort time: 5 ms
+Total test time: 23 ms
+TestIntegerSort.TestIntegerSortCopyAndDestructiveMove
 Data generation time: 0 ms
 Standard sort time: 3 ms
-Parlay integer_sort time: 5 ms
+Parlay integer_sort time: 4 ms
 Verification time: 1 ms
-Total test time: 11 ms
-[       OK ] TestIntegerSort.TestIntegerSortCopyAndDestructiveMove (12 ms)
-[----------] 3 tests from TestIntegerSort (43 ms total)
+Total test time: 9 ms
 
-[----------] Global test environment tear-down
-[==========] 3 tests from 1 test suite ran. (43 ms total)
-[  PASSED  ] 3 tests.
 skew:Running for n = 10000
-[==========] Running 3 tests from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 3 tests from TestIntegerSort
-[ RUN      ] TestIntegerSort.TestIntegerSortEmptyInput
-[       OK ] TestIntegerSort.TestIntegerSortEmptyInput (1 ms)
-[ RUN      ] TestIntegerSort.TestIntegerSortInplaceUniquePtr
+TestIntegerSort.TestIntegerSortInplaceUniquePtr
 Weight generation time: 1 ms
-Data generation time: 3 ms
-Standard sort time: 10 ms
+Data generation time: 8 ms
+Standard sort time: 12 ms
 Parlay integer_sort time: 3 ms
 Verification time: 1 ms
-Total test time: 19 ms
-[       OK ] TestIntegerSort.TestIntegerSortInplaceUniquePtr (21 ms)
-[ RUN      ] TestIntegerSort.TestIntegerSortCopyAndDestructiveMove
+Total test time: 26 ms
+TestIntegerSort.TestIntegerSortCopyAndDestructiveMove
 Weight generation time: 0 ms
-Data generation time: 2 ms
+Data generation time: 1 ms
 Standard sort time: 3 ms
 Parlay integer_sort time: 2 ms
 Verification time: 1 ms
 Total test time: 10 ms
-[       OK ] TestIntegerSort.TestIntegerSortCopyAndDestructiveMove (13 ms)
-[----------] 3 tests from TestIntegerSort (36 ms total)
 
-[----------] Global test environment tear-down
-[==========] 3 tests from 1 test suite ran. (36 ms total)
-[  PASSED  ] 3 tests.
 Running for n = 100000
-[==========] Running 3 tests from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 3 tests from TestIntegerSort
-[ RUN      ] TestIntegerSort.TestIntegerSortEmptyInput
-[       OK ] TestIntegerSort.TestIntegerSortEmptyInput (1 ms)
-[ RUN      ] TestIntegerSort.TestIntegerSortInplaceUniquePtr
-Data generation time: 10 ms
-Standard sort time: 182 ms
-Parlay integer_sort time: 52 ms
-Total test time: 245 ms
-[       OK ] TestIntegerSort.TestIntegerSortInplaceUniquePtr (270 ms)
-[ RUN      ] TestIntegerSort.TestIntegerSortCopyAndDestructiveMove
-Data generation time: 1 ms
-Standard sort time: 46 ms
-Parlay integer_sort time: 40 ms
-Verification time: 13 ms
-Total test time: 103 ms
-[       OK ] TestIntegerSort.TestIntegerSortCopyAndDestructiveMove (123 ms)
-[----------] 3 tests from TestIntegerSort (395 ms total)
-
-[----------] Global test environment tear-down
-[==========] 3 tests from 1 test suite ran. (396 ms total)
-[  PASSED  ] 3 tests.
-skew:Running for n = 100000
-[==========] Running 3 tests from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 3 tests from TestIntegerSort
-[ RUN      ] TestIntegerSort.TestIntegerSortEmptyInput
-[       OK ] TestIntegerSort.TestIntegerSortEmptyInput (1 ms)
-[ RUN      ] TestIntegerSort.TestIntegerSortInplaceUniquePtr
-Weight generation time: 13 ms
-Data generation time: 43 ms
-Standard sort time: 155 ms
-Parlay integer_sort time: 55 ms
-Verification time: 21 ms
-Total test time: 289 ms
-[       OK ] TestIntegerSort.TestIntegerSortInplaceUniquePtr (295 ms)
-[ RUN      ] TestIntegerSort.TestIntegerSortCopyAndDestructiveMove
-Weight generation time: 14 ms
-Data generation time: 30 ms
-Standard sort time: 57 ms
+TestIntegerSort.TestIntegerSortInplaceUniquePtr
+Data generation time: 41 ms
+Standard sort time: 138 ms
 Parlay integer_sort time: 51 ms
-Verification time: 17 ms
-Total test time: 172 ms
-[       OK ] TestIntegerSort.TestIntegerSortCopyAndDestructiveMove (219 ms)
-[----------] 3 tests from TestIntegerSort (516 ms total)
+Total test time: 231 ms
+TestIntegerSort.TestIntegerSortCopyAndDestructiveMove
+Data generation time: 15 ms
+Standard sort time: 51 ms
+Parlay integer_sort time: 52 ms
+Verification time: 16 ms
+Total test time: 137 ms
 
-[----------] Global test environment tear-down
-[==========] 3 tests from 1 test suite ran. (516 ms total)
-[  PASSED  ] 3 tests.
+skew:Running for n = 100000
+TestIntegerSort.TestIntegerSortInplaceUniquePtr
+Weight generation time: 13 ms
+Data generation time: 36 ms
+Standard sort time: 151 ms
+Parlay integer_sort time: 54 ms
+Verification time: 25 ms
+Total test time: 282 ms
+TestIntegerSort.TestIntegerSortCopyAndDestructiveMove
+Weight generation time: 12 ms
+Data generation time: 34 ms
+Standard sort time: 58 ms
+Parlay integer_sort time: 46 ms
+Verification time: 18 ms
+Total test time: 170 ms
+
 Running for n = 1000000
-[==========] Running 3 tests from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 3 tests from TestIntegerSort
-[ RUN      ] TestIntegerSort.TestIntegerSortEmptyInput
-[       OK ] TestIntegerSort.TestIntegerSortEmptyInput (1 ms)
-[ RUN      ] TestIntegerSort.TestIntegerSortInplaceUniquePtr
-Data generation time: 66 ms
-Standard sort time: 1918 ms
-Parlay integer_sort time: 60 ms
-Total test time: 2045 ms
-[       OK ] TestIntegerSort.TestIntegerSortInplaceUniquePtr (2380 ms)
-[ RUN      ] TestIntegerSort.TestIntegerSortCopyAndDestructiveMove
-Data generation time: 14 ms
-Standard sort time: 665 ms
-Parlay integer_sort time: 78 ms
-Verification time: 230 ms
-Total test time: 988 ms
-[       OK ] TestIntegerSort.TestIntegerSortCopyAndDestructiveMove (1043 ms)
-[----------] 3 tests from TestIntegerSort (3426 ms total)
+TestIntegerSort.TestIntegerSortInplaceUniquePtr
+Data generation time: 86 ms
+Standard sort time: 2028 ms
+Parlay integer_sort time: 70 ms
+Total test time: 2185 ms
+TestIntegerSort.TestIntegerSortCopyAndDestructiveMove
+Data generation time: 13 ms
+Standard sort time: 723 ms
+Parlay integer_sort time: 85 ms
+Verification time: 226 ms
+Total test time: 1048 ms
 
-[----------] Global test environment tear-down
-[==========] 3 tests from 1 test suite ran. (3426 ms total)
-[  PASSED  ] 3 tests.
 skew:Running for n = 1000000
-[==========] Running 3 tests from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 3 tests from TestIntegerSort
-[ RUN      ] TestIntegerSort.TestIntegerSortEmptyInput
-[       OK ] TestIntegerSort.TestIntegerSortEmptyInput (1 ms)
-[ RUN      ] TestIntegerSort.TestIntegerSortInplaceUniquePtr
-Weight generation time: 133 ms
-Data generation time: 298 ms
-Standard sort time: 1719 ms
-Parlay integer_sort time: 102 ms
-Verification time: 308 ms
-Total test time: 2562 ms
-[       OK ] TestIntegerSort.TestIntegerSortInplaceUniquePtr (2606 ms)
-[ RUN      ] TestIntegerSort.TestIntegerSortCopyAndDestructiveMove
-Weight generation time: 103 ms
-Data generation time: 207 ms
-Standard sort time: 700 ms
-Parlay integer_sort time: 99 ms
-Verification time: 280 ms
-Total test time: 1392 ms
-[       OK ] TestIntegerSort.TestIntegerSortCopyAndDestructiveMove (1450 ms)
-[----------] 3 tests from TestIntegerSort (4058 ms total)
+TestIntegerSort.TestIntegerSortInplaceUniquePtr
+Weight generation time: 140 ms
+Data generation time: 329 ms
+Standard sort time: 1830 ms
+Parlay integer_sort time: 90 ms
+Verification time: 337 ms
+Total test time: 2728 ms
+TestIntegerSort.TestIntegerSortCopyAndDestructiveMove
+Weight generation time: 110 ms
+Data generation time: 203 ms
+Standard sort time: 878 ms
+Parlay integer_sort time: 119 ms
+Verification time: 290 ms
+Total test time: 1603 ms
 
-[----------] Global test environment tear-down
-[==========] 3 tests from 1 test suite ran. (4058 ms total)
-[  PASSED  ] 3 tests.
 Running for n = 10000000
-[==========] Running 3 tests from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 3 tests from TestIntegerSort
-[ RUN      ] TestIntegerSort.TestIntegerSortEmptyInput
-[       OK ] TestIntegerSort.TestIntegerSortEmptyInput (1 ms)
-[ RUN      ] TestIntegerSort.TestIntegerSortInplaceUniquePtr
-Data generation time: 1234 ms
-Standard sort time: 21650 ms
-Parlay integer_sort time: 423 ms
-Total test time: 23309 ms
-[       OK ] TestIntegerSort.TestIntegerSortInplaceUniquePtr (27502 ms)
-[ RUN      ] TestIntegerSort.TestIntegerSortCopyAndDestructiveMove
-Data generation time: 129 ms
-Standard sort time: 9886 ms
-Parlay integer_sort time: 780 ms
-Verification time: 2568 ms
-Total test time: 13364 ms
-[       OK ] TestIntegerSort.TestIntegerSortCopyAndDestructiveMove (13751 ms)
-[----------] 3 tests from TestIntegerSort (41256 ms total)
+TestIntegerSort.TestIntegerSortInplaceUniquePtr
+Data generation time: 1178 ms
+Standard sort time: 22024 ms
+Parlay integer_sort time: 432 ms
+Total test time: 23635 ms
+TestIntegerSort.TestIntegerSortCopyAndDestructiveMove
+Data generation time: 141 ms
+Standard sort time: 10653 ms
+Parlay integer_sort time: 764 ms
+Verification time: 2581 ms
+Total test time: 14141 ms
 
-[----------] Global test environment tear-down
-[==========] 3 tests from 1 test suite ran. (41256 ms total)
-[  PASSED  ] 3 tests.
 skew:Running for n = 10000000
-[==========] Running 3 tests from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 3 tests from TestIntegerSort
-[ RUN      ] TestIntegerSort.TestIntegerSortEmptyInput
-[       OK ] TestIntegerSort.TestIntegerSortEmptyInput (1 ms)
-[ RUN      ] TestIntegerSort.TestIntegerSortInplaceUniquePtr
-Weight generation time: 1434 ms
-Data generation time: 2770 ms
-Standard sort time: 21377 ms
-Parlay integer_sort time: 443 ms
-Verification time: 3553 ms
-Total test time: 29579 ms
-[       OK ] TestIntegerSort.TestIntegerSortInplaceUniquePtr (29916 ms)
-[ RUN      ] TestIntegerSort.TestIntegerSortCopyAndDestructiveMove
-Weight generation time: 1433 ms
-Data generation time: 1994 ms
-Standard sort time: 11349 ms
-Parlay integer_sort time: 728 ms
-Verification time: 2750 ms
-Total test time: 18257 ms
-[       OK ] TestIntegerSort.TestIntegerSortCopyAndDestructiveMove (18693 ms)
-[----------] 3 tests from TestIntegerSort (48612 ms total)
+TestIntegerSort.TestIntegerSortInplaceUniquePtr
+Weight generation time: 1576 ms
+Data generation time: 2456 ms
+Standard sort time: 23434 ms
+Parlay integer_sort time: 520 ms
+Verification time: 3469 ms
+Total test time: 31457 ms
+TestIntegerSort.TestIntegerSortCopyAndDestructiveMove
+Weight generation time: 1599 ms
+Data generation time: 1929 ms
+Standard sort time: 13461 ms
+Parlay integer_sort time: 900 ms
+Verification time: 3045 ms
+Total test time: 20936 ms
 
-[----------] Global test environment tear-down
-[==========] 3 tests from 1 test suite ran. (48612 ms total)
-[  PASSED  ] 3 tests.
